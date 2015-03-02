@@ -1,0 +1,21 @@
+Activity Class
+	Provide GUI
+	Main thing users see
+	Captures user interaction
+	Support single focused task that a user can do
+
+
+Services
+	Run in background
+	No UI
+	Supporting long running operations
+	Provide a way for different process to share data
+BopradCastRecievers
+	Listen for events
+	Subscriber (in publish/subscribe pattern)
+	Intent Class
+	Intents around routed to broadcast recievers that are subscribed
+ContentProviders
+	Multiple applicatoins to share data
+	database style interface
+	handles interprocess communcation
